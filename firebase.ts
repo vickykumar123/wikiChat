@@ -5,7 +5,7 @@ import { getFunctions } from "firebase/functions";
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyDP6iMBlCrMwIfVQRXD04NsOnz-ty47P8Y",
+  apiKey: process.env.NEXT_PUBLIC_FIREBASE_API_KEY!,
   authDomain: "wikitranslator-saas.firebaseapp.com",
   projectId: "wikitranslator-saas",
   storageBucket: "wikitranslator-saas.appspot.com",
